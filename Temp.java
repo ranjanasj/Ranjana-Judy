@@ -10,8 +10,13 @@ public class Main {
         if (inTemp < 20) {
             System.out.println("Too cold!!");
         }
-        else {
+        else if (inTemp>20 ||inTemp <= 25)
+ 	{
             System.out.println("Nice day!");
         }
+	else
+	{
+            System.out.println("Too Hot!");
+	}		
     }
 }
